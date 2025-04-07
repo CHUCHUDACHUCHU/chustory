@@ -4,7 +4,7 @@ title: "블로그 자동화 첫 걸음 🚀"
 date: 2024-04-07 09:00:00 +0900
 categories: [일상, 자동화]
 tags: [GPT, 블로그, 자동화, 첫글]
-permalink: /first-post/
+permalink: /chustory/first-post/
 ---
 
 안녕하세요!  
