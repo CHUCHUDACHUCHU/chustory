@@ -1,7 +1,7 @@
 title: "CHU의 블로그 자동화 실험실"
 description: "GPT와 자동화로 돌아가는 실험형 블로그 🤖"
-baseurl: "" # 서브디렉토리면 /my-blog, 루트라면 ""
-url: "https://USERNAME.github.io" # 👉 실제 GitHub Pages 주소로 변경해줘!
+baseurl: ""
+url: "https://chuchudachuchu.github.io/chustory/"
 
 # 글 포맷 관련
 markdown: kramdown
