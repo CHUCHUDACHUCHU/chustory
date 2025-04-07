@@ -1,0 +1,26 @@
+title: "CHU의 블로그 자동화 실험실"
+description: "GPT와 자동화로 돌아가는 실험형 블로그 🤖"
+baseurl: "" # 서브디렉토리면 /my-blog, 루트라면 ""
+url: "https://USERNAME.github.io" # 👉 실제 GitHub Pages 주소로 변경해줘!
+
+# 글 포맷 관련
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 페이지 설정
+paginate: 5
+paginate_path: "/page:num"
+
+# 기본 메타데이터
+author:
+  name: "CHU"
+  email: "yoon7548@gmail.com" # 필요하면 수정!
+
+# 빌드 제외할 파일/폴더
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
