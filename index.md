@@ -1,6 +1,7 @@
 ---
 layout: home
 title: "CHU의 블로그 자동화 실험실"
+description: "GPT와 자동화로 돌아가는 실험형 블로그 🤖"
 ---
 
 # 💡 CHU의 블로그 자동화 실험실
@@ -13,7 +14,10 @@ GPT로 생성된 글, 자동 생성 이미지, 그리고 하루하루 기록들�
 
 ## 📰 최근 글 보기
 
-자동화는 로망이다...
+{% for post in site.posts limit:5 %}
+
+- [{{ post.title }}]({{ post.url }}) <small>{{ post.date | date: '%Y-%m-%d' }}</small>
+  {% endfor %}
 
 ---
 

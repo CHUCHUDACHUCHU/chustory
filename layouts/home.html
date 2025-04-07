@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- 기본 스타일 -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Noto Sans KR", sans-serif;
+        max-width: 768px;
+        margin: auto;
+        padding: 2rem;
+        line-height: 1.6;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+      h1,
+      h2,
+      h3 {
+        color: #222;
+      }
+      a {
+        color: #007acc;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      hr {
+        margin: 2rem 0;
+      }
+      .post-list small {
+        color: #888;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.description }}</p>
+      <hr />
+    </header>
+
+    <main>{{ content }}</main>
+
+    <footer>
+      <hr />
+      <p>© {{ site.time | date: "%Y" }} {{ site.author.name }}</p>
+    </footer>
+  </body>
+</html>

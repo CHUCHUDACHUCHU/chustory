@@ -24,3 +24,9 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+
+# Jekyll Remote Theme 설정
+# 원격 테마를 사용하기 위한 설정
+remote_theme: pages-themes/slate@v0.2.0
+plugins:
+  - jekyll-remote-theme
